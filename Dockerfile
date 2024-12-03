@@ -1,6 +1,6 @@
 ARG PROFILE="debug"
 
-FROM docker.io/library/rust:1.82-bookworm AS build
+FROM docker.io/library/rust:1.83-bookworm AS build
 
 WORKDIR /work
 
